@@ -1,15 +1,6 @@
 export default () => (
 	<div
-		className="
-				flex
-				h-screen
-				items-center
-				justify-center
-				bg-white 
-				text-slate-600
-				font-light
-				text-center
-			"
+		className="flex items-center justify-center h-screen font-light text-center bg-white  text-slate-600"
 	>
 		<div className="max-w-md">
 			<img
@@ -17,11 +8,11 @@ export default () => (
 				alt="Agência Canivete"
 				className="w-64 mx-auto"
 			/>
-			<div className="text-xs uppercase tracking-wider">
+			<div className="text-xs tracking-wider uppercase">
 				<span className="font-medium text-slate-800">
 					Agência de Marketing
-				</span>
-				com foco em
+				</span>{" "}
+				especializada em{" "}
 				<span className="font-medium text-slate-800">
 					Gestão de Marcas
 				</span>
@@ -32,8 +23,8 @@ export default () => (
 					alt="Cadê o site mesmo?"
 				/>
 
-				<div className="mt-8 px-4">
-					<h3 className="font-medium text-2xl mb-4 text-slate-800">
+				<div className="px-4 mt-8">
+					<h3 className="mb-4 text-2xl font-medium text-slate-800">
 						Cadê o site que estava aqui?
 					</h3>
 					Estamos preparando um novo site onde você poderá conhecer
@@ -48,17 +39,7 @@ export default () => (
 			<div>
 				<a
 					href="https://wa.me/5588981082050"
-					className="
-							inline-block
-							py-3
-							px-8
-							bg-outrageous
-							text-white
-							rounded-full
-							shadow-xl shadow-outrageous/50
-							hover:bg-outrageous-light
-							transition-colors
-						"
+					className="inline-block px-8 py-3 text-white transition-colors rounded-full shadow-xl  bg-outrageous shadow-outrageous/50 hover:bg-outrageous-light"
 				>
 					Vamos marcar um cafezinho? ☕
 				</a>
