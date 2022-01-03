@@ -8,14 +8,19 @@ import {
 } from "remix";
 import type { MetaFunction } from "remix";
 
-import styles from "../styles/tailwind.css";
+import styles from "./app.css";
 
 export function links() {
-	return [{ rel: "stylesheet", href: styles }];
+	return [
+		{ rel: "stylesheet", href: styles },
+		{ rel: "icon", href: "/favico.png" },
+	];
 }
 
 export const meta: MetaFunction = () => {
-	return { title: "New Remix App" };
+	return {
+		title: "CANIVETE > Agência de Marketing com foco em Gestão de Marcas",
+	};
 };
 
 export default function App() {
