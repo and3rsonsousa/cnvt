@@ -4,7 +4,7 @@ import { cn } from "~/lib/utils";
 
 export const meta: MetaFunction = () => {
 	return [
-		{ title: "Agência CNVT" },
+		{ title: "Agência CNVT®" },
 		{
 			name: "description",
 			content:
@@ -25,33 +25,42 @@ export default function Index() {
 			/>
 			<div className="text-center mx-auto max-w-96">
 				<svg
-					clipRule="evenodd"
+					width="100%"
+					height="100%"
+					viewBox="0 0 622 613"
 					fillRule="evenodd"
 					strokeLinejoin="round"
 					strokeMiterlimit="2"
-					viewBox="0 0 4252 4252"
-					className="w-24 mx-auto"
+					className="size-24 mx-auto"
 				>
-					<g transform="translate(-1379.8 -6145.7)">
-						<g transform="matrix(11.466 0 0 11.466 -17337 -75255)">
-							<path
-								d="m1808.8 7470.1h-67.81l-108.62-108.61v-153.61l108.62-108.61h67.81v63.29l-151.68 113.14v17.97h38.55l113.13 176.43zm17.97-370.83h67.82l108.61 108.61v153.61l-108.61 108.61h-67.82v-63.29l151.69-113.14v-17.97h-38.55l-113.14-176.43z"
-								fill="#fff"
-							/>
-						</g>
-					</g>
+					<path
+						d="M153.839 283.368c-81.946 0-143.116-60.831-143.116-141.298C10.724 60.835 71.893.004 153.839.004c70.781 0 125.413 46.585 136.185 115.117h-75.021c-9.229-27.725-32.702-45.817-60.785-45.817-38.088 0-66.171 30.804-66.171 72.766 0 41.583 28.083 71.611 66.171 71.611 29.626 0 53.478-19.636 60.785-49.284h75.787c-9.996 70.843-65.016 118.971-136.952 118.971zM352.653 6.989h43.086l151.196 139.366V6.989h75.021v269.497h-48.092L426.131 134.041v142.445h-73.478V6.989zM-.048 343.5h85.795l66.162 178.647L216.546 343.5h85.016L185.766 613.006h-70.014L-.048 343.5zm449.842 269.505v-170.17l22.697-16.945v-15.393H359.004V343.5h256.6v66.997h-90.79v202.508h-75.021z"
+						fill="currentColor"
+					/>
 				</svg>
 				<div className="mt-12">
 					<div className="mb-4">
 						Que tal começar uma conversa sobre como reposicionar sua
 						marca com estratégias de marketing realmente eficazes?
 					</div>
-					<a
-						href="https://form.respondi.app/tAaiKV53"
-						className="bg-white text-black px-8 py-5 rounded-2xl font-medium inline-block hover:opacity-90"
-					>
-						Primeiro Contato
-					</a>
+					<div className="flex flex-col gap-4">
+						<a
+							href="https://form.respondi.app/tAaiKV53"
+							className="bg-white text-black px-8 py-5 rounded-2xl font-medium inline-block hover:opacity-90"
+						>
+							Primeiro Contato
+						</a>
+						<div>
+							<a
+								href={encodeURI(
+									"https://wa.me/5588992216886?text=Olá, gostaria de saber mais sobre o Ensaio Corporativo por IA."
+								)}
+								className="text-white underline  block font-medium p-4"
+							>
+								Ensaio Fotográfico Corporativo por IA
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
